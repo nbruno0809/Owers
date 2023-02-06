@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainMenu">
+
+    <fragment
+        android:id="@+id/mainMenu"
+        android:name="com.example.owers.MainMenu"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/fragment_main_menu">
+        <action
+            android:id="@+id/action_mainMenu_to_depts"
+            app:destination="@id/depts" />
+        <action
+            android:id="@+id/action_mainMenu_to_transactions"
+            app:destination="@id/transactions" />
+        <action
+            android:id="@+id/action_mainMenu_to_group"
+            app:destination="@id/group" />
+    </fragment>
+    <fragment
+        android:id="@+id/depts"
+        android:name="com.example.owers.debts"
+        android:label="fragment_depts"
+        tools:layout="@layout/fragment_debts" />
+    <fragment
+        android:id="@+id/transactions"
+        android:name="com.example.owers.transactions"
+        android:label="fragment_tranzactions"
+        tools:layout="@layout/fragment_transactions" />
+    <fragment
+        android:id="@+id/group"
+        android:name="com.example.owers.group"
+        android:label="fragment_group"
+        tools:layout="@layout/fragment_group" />
+</navigation>

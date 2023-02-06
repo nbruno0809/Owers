@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Owers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tranzactions">Tranzakciók</string>
+    <string name="group">Csoport</string>
+    <string name="debts">Tartozások</string>
+    <string name="groupMembers">Csoport tagok:</string>
+    <string name="newname">Új személy neve:</string>
+    <string name="newtTeammate">Csoporttag felvétele</string>
+    <string name="button_cancel">Mégse</string>
+    <string name="button_ok">Hozzáad</string>
+    <string name="cantDelete">Ennek a személynek tartozása van, így nem törölhető</string>
+    <string name="transactions">Tranzakciók:</string>
+    <string name="newtTransaction">Új tranzakció</string>
+    <string name="cantAdd">Ilyen nevű csoporttag már létezik</string>
+    <string name="whoPaid">Ki fizetett?</string>
+    <string name="forWho">Kinek kizetett?</string>
+    <string name="howMuch">Mennyit?</string>
+    <string name="settle">Szeretnéd rendezni ezt a tartozást?</string>
+    <string name="yes">Igen</string>
+</resources>

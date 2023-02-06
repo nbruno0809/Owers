@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#393E46"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10pt">
+
+        <Button
+            android:id="@+id/btnD"
+            android:layout_width="match_parent"
+            android:layout_height="50pt"
+            android:backgroundTint="@color/owGreen"
+            android:text="@string/debts"
+            android:textColor="#F7F7F7"
+            android:textSize="30sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10pt">
+
+        <Button
+            android:id="@+id/btnT"
+            android:layout_width="match_parent"
+            android:layout_height="50pt"
+            android:text="@string/tranzactions"
+            android:textColor="#F7F7F7"
+            android:textSize="30sp"
+            app:backgroundTint="#6D9886" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnG"
+            android:layout_width="match_parent"
+            android:layout_height="50pt"
+            android:text="@string/group"
+            android:textColor="#F7F7F7"
+            android:textSize="30sp"
+            app:backgroundTint="#6D9886" />
+    </FrameLayout>
+
+</LinearLayout>
